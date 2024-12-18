@@ -28,5 +28,21 @@
 
       gtag('config', 'UA-141927634-1');
     </script> 
+    <script>
+        !function(w, d, s, ...args){
+          var div = d.createElement('div');
+          div.id = 'aichatbot';
+          d.body.appendChild(div);
+          w.chatbotConfig = args;
+          var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s);
+          j.defer = true;
+          j.type = 'module';
+          j.src = 'https://aichatbot.sendbird.com/index.js';
+          f.parentNode.insertBefore(j, f);
+        }(window, document, 'script', 'EC34430F-DC76-45B5-A7F0-A9CD2EA3FA50', 'mhV72Z-8hCzNFvEXBd3hQ', {
+          apiHost: 'https://api-cf-ap-2.sendbird.com',
+        });
+    </script>
 </head>
 
